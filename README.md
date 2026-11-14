@@ -1,3 +1,7 @@
+
+
+
+<img width="1103" height="639" alt="h316_panel" src="https://github.com/user-attachments/assets/2d6a6645-6dee-450f-b432-f5f50fb88ff6" />
 # h316-front-panel-simh
 • Interactive Honeywell H316 front panel GUI for SIMH BASIC-16 with live register lamps and PTR/PTP paper tape support.
 
@@ -5,7 +9,7 @@
 
 An interactive graphical front panel for the **SIMH Honeywell H316** emulator, designed for running **BASIC-16** with live register lamps, sense switches, and an 8-channel perforated paper tape (PTR/PTP) monitor.
 
-No Python installation is required—the Linux release is compiled into a standalone native binary.
+Linux release is compiled into a standalone native binary.
 
 ---
 
@@ -40,7 +44,10 @@ No Python installation is required—the Linux release is compiled into a standa
    ./h316_panel_simhv6
    ```
 
-4. Click **LAUNCH** to boot SIMH, goto the terminal window and type RUN 1000. Always use CAPS LOCK. Then click **LOAD .BAS** to try `cf.bas` or **MOUNT PTR** / **BOOT PTR** for `basic_16_slst.ptp`.
+4. Click **LAUNCH** to boot SIMH, goto the terminal window and type RUN 1000. Always use CAPS LOCK. Then click **LOAD .BAS** to try `cf.bas` or **MOUNT PTR** for `basic_16_slst.ptp`.
+
+
+5. Please download all files and put them in one folder.
 
 ---
 
