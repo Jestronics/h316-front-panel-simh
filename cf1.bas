@@ -1,0 +1,6 @@
+10 PRINT "C TO F"
+20 PRINT "C (C): ";
+30 INPUT C
+40 F = C * 1.8 + 32
+70 PRINT "F (F) = "; F
+80 END
