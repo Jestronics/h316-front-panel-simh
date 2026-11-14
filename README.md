@@ -47,7 +47,7 @@ Linux release is compiled into a standalone native binary.
    ./h316_panel_simhv6
    ```
 
-4. Click **LAUNCH** to boot SIMH, goto the terminal window and type RUN 1000. Always use CAPS LOCK. Then click **LOAD .BAS** to try `cf.bas` or **MOUNT PTR** for `memtest.ptp`.
+4. Click **LAUNCH** to boot SIMH, goto the terminal window and type RUN 1000. Always use CAPS LOCK. Then click **LOAD .BAS** to try `cf1.bas` or **MOUNT PTR** for `memtest.ptp`.
 
 
 5. Please download all files and put them in one folder.
