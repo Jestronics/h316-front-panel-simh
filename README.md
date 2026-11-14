@@ -20,8 +20,8 @@ Linux release is compiled into a standalone native binary.
    * **`h316_panel_simhv6`** (standalone Linux executable)
    * **`basic.ini`** (SIMH configuration file)
    * **`basic_16_slst.ptp`** (Honeywell BASIC-16 paper tape image)
-   * **`cf.bas`** (sample BASIC program)
-
+   * **`cf1.bas`** (sample BASIC program C/F CONVERTER)
+3. * **`memtest.ptp`** (sample BASIC program on ptp memtest PRESS different REGISTER to watch a light show.)
 ---
 
 ## Requirements
