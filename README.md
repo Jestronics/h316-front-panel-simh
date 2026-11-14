@@ -21,7 +21,7 @@ Linux release is compiled into a standalone native binary.
    * **`basic.ini`** (SIMH configuration file)
    * **`basic_16_slst.ptp`** (Honeywell BASIC-16 paper tape image)
    * **`cf1.bas`** (sample BASIC program C/F CONVERTER)
-   * **`memtest.ptp`** (sample BASIC program on ptp memtest PRESS different REGISTER to watch a light show.)
+   * **`memtest.ptp`** (sample BASIC program on ptp memtest PRESS other REGISTER to watch a light show.)
 3.Please install SIMH. Will work with v3 and above. (sudo apt install simh)
     
 ---
