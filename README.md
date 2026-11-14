@@ -21,7 +21,9 @@ Linux release is compiled into a standalone native binary.
    * **`basic.ini`** (SIMH configuration file)
    * **`basic_16_slst.ptp`** (Honeywell BASIC-16 paper tape image)
    * **`cf1.bas`** (sample BASIC program C/F CONVERTER)
-3. * **`memtest.ptp`** (sample BASIC program on ptp memtest PRESS different REGISTER to watch a light show.)
+   * **`memtest.ptp`** (sample BASIC program on ptp memtest PRESS different REGISTER to watch a light show.)
+3.Please install SIMH. Will work with v3 and above. (sudo apt install simh)
+    
 ---
 
 ## Requirements
@@ -44,7 +46,7 @@ Linux release is compiled into a standalone native binary.
    ./h316_panel_simhv6
    ```
 
-4. Click **LAUNCH** to boot SIMH, goto the terminal window and type RUN 1000. Always use CAPS LOCK. Then click **LOAD .BAS** to try `cf.bas` or **MOUNT PTR** for `basic_16_slst.ptp`.
+4. Click **LAUNCH** to boot SIMH, goto the terminal window and type RUN 1000. Always use CAPS LOCK. Then click **LOAD .BAS** to try `cf.bas` or **MOUNT PTR** for `memtest.ptp`.
 
 
 5. Please download all files and put them in one folder.
