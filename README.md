@@ -16,13 +16,13 @@ Linux release is compiled into a standalone native binary.
 ## Download
 
 1. Go to the **[Releases](../../releases/latest)** section on the right-hand side of this page.
-2. Under **Assets**, download these four files into the **same folder** (you can ignore GitHub's auto-generated *Source code* archives):
-   * **`h316_panel_simhv6`** (standalone Linux executable)
+2. Under **Assets**, download these five files into the **same folder** (you can ignore GitHub's auto-generated *Source code* archives):
+   * **`h316_panel_simhv6.tar.gz`** (standalone Linux executable)
    * **`basic.ini`** (SIMH configuration file)
    * **`basic_16_slst.ptp`** (Honeywell BASIC-16 paper tape image)
    * **`cf1.bas`** (sample BASIC program C/F CONVERTER)
    * **`memtest.ptp`** (sample BASIC program on ptp memtest PRESS other REGISTER to watch a light show.)
-
+  
 3.Please install SIMH. Will work with v3 and above. (sudo apt install simh)
     
 ---
@@ -36,21 +36,25 @@ Linux release is compiled into a standalone native binary.
 
 ## Installation & Quick Start
 
-1. Open a terminal in the folder where you saved the downloaded files.
-2. Make the binary executable:
+1. Open a terminal in the folder where you downloaded the archive and extract it:
+   ```bash
+   tar -xzvf h316_panelv6_linux.tar.gz
+   ```
+2. Open a terminal in the folder where you saved the downloaded files.
+3. Make the binary executable:
    ```bash
    chmod +x h316_panel_simhv6
    ```
 
-3. Launch the front panel:
+4. Launch the front panel:
    ```bash
    ./h316_panel_simhv6
    ```
 
-4. Click **LAUNCH** to boot SIMH, goto the terminal window and type RUN 1000. Always use CAPS LOCK. Then click **LOAD .BAS** to try `cf1.bas` or **MOUNT PTR** for `memtest.ptp`.
+5. Click **LAUNCH** to boot SIMH, goto the terminal window and type RUN 1000. Always use CAPS LOCK. Then click **LOAD .BAS** to try `cf1.bas` or **MOUNT PTR** for `memtest.ptp`.
 
 
-5. Please download all files and put them in one folder.
+6. Please download all files and put them in one folder.
 
 ---
 
