@@ -5,6 +5,27 @@
 # h316-front-panel-simh
 • Interactive Honeywell H316 front panel GUI for SIMH BASIC-16 with live register lamps and PTR/PTP paper tape support.
 
+
+## History: The Honeywell H316 Rack-Mount System
+
+The **Honeywell H316** was introduced in **1969** as the compact, lower-cost entry in Honeywell's **Series 16** 16-bit minicomputer lineup (alongside the DDP-116, DDP-416, and DDP-516). While its pedestal variant became famous as the $10,600 Neiman Marcus "Kitchen Computer," the standard H316 was engineered primarily as an industrial and laboratory **19-inch rack-mount system**.
+
+### Key Historical Milestones
+* **First Sub-$10,000 Major Minicomputer:** Honeywell advertised the base rack-mountable H316 at **$9,700**, making it the first 16-bit minicomputer from a major manufacturer priced under $10,000.
+* **ARPANET Backbone Node (IMP):** Beginning in the early 1970s, ruggedized rack-mounted H316s replaced the larger DDP-516 as **Interface Message Processors (IMPs)**—the packet-switching routers that formed the backbone of the early ARPANET (precursor to the modern Internet).
+* **Early Semiconductor Memory Milestone:** In 1972, Honeywell demonstrated a prototype H316 fitted with a semiconductor RAM board at a computer show, marking one of the earliest public displays of solid-state memory in a commercial minicomputer (though production units continued using magnetic core memory).
+* **The 19-Inch Rack Standard (EIA-310):** The H316 chassis was built to fit the standard **19-inch wide** equipment rack—a format originally created by AT&T and Western Electric in **1922** for telephone central-office relay equipment and standardized as **EIA-310** in **1965** using **1.75-inch (1U)** vertical mounting increments.
+
+### Rack-Mount Hardware Specifications
+* **Configurations:** Available as a **standard rack-mountable chassis** (with slides/hardware for customer-supplied 19" × 24" racks), a **full factory rack-mounted cabinet** (24" × 24" × 72"), a **tabletop** enclosure, or a **pedestal** unit.
+* **Chassis Dimensions (Rack-Mountable Unit):** 15.47 in (H) × 17.69 in (W, behind 19" front panel) × 26 in (D)
+* **Weight:** ~120 lbs (54 kg) for the standard rack-mountable unit (150 lbs for the tabletop version)
+* **CPU & Logic:** 16-bit word length built from discrete **DTL (Diode-Transistor Logic)** integrated circuit modules, running at a **2.5 MHz** clock with a **1.6 µs** memory cycle time
+* **Memory:** 4,096 words (4K × 16-bit) of magnetic core memory standard, expandable up to 16,384 words (16K)
+* **Power & Cooling:** 475 watts AC with internal filtered forced-air cooling (rated for 0°C to 45°C ambient operation)
+* **I/O & Peripherals:** 16-bit input/output buses (INB/OTB), single priority interrupt line (expandable), and standard support for 10 cps Teletype (ASR-33) paper tape readers/punches
+
+
 # Honeywell H316 Front Panel for SIMH (v6)
 
 An interactive graphical front panel for the **SIMH Honeywell H316** emulator, designed for running **BASIC-16** with live register lamps, sense switches, and an 8-channel perforated paper tape (PTR/PTP) monitor.
