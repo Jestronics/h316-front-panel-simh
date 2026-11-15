@@ -93,3 +93,13 @@ Linux release is compiled into a standalone native binary.
 | **REGISTER (A, B, OP, P/Y, M)** | Selects which register is displayed on the 16-bit indicator lamps and octal readout. |
 | **MSTR / FETCH / P+1** | Sends `Ctrl+C` (Break), `LIST`, or `RUN` commands to BASIC-16. |
 | **POWER (ON)** | Cleanly terminates the background `h316` SIMH process and exits the application. |
+
+
+---
+
+## Credits & Resources
+
+* **[Open SIMH Project](https://opensimh.org/)** ([GitHub Repository](https://github.com/open-simh/simh)) — The open-source Computer History Simulation Project (originally created by Robert M. Supnik) that provides the `h316` emulator backend.
+* **[SIMH Honeywell H316/H516 Simulator Documentation](https://opensimh.org/simdocs/h316_doc.html)** — Reference guide for emulated CPU registers, sense switches, Paper Tape Reader (`PTR`), and Paper Tape Punch (`PTP`) devices.
+* **[Honeywell Series 16 Documentation Archive](http://www.series16.adrianwise.co.uk/documentation/index.html)** — Scanned Honeywell hardware manuals, programmers' reference guides, and BASIC-16 listings (mirrored from Bitsavers).
+* **[Computer History Museum — Honeywell H316 Collection](https://www.computerhistory.org/collections/catalog/X579.85)** — Historical artifacts, brochures, and specifications for the 1969 Honeywell Series 16 lineup.
